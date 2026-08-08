@@ -6,8 +6,8 @@ from html import escape
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = os.getenv('BOT_TOKEN', 'PASTE_YOUR_BOT_TOKEN_HERE')
-ADMIN_IDS = {int(x) for x in os.getenv('ADMIN_IDS', '123456789').split(',') if x.strip().isdigit()}
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8675144844:AAH6j5flV7e_Yn3OrCBS6dcUoDpzEleajvs')
+ADMIN_IDS = {int(x) for x in os.getenv('ADMIN_IDS', '6995426618').split(',') if x.strip().isdigit()}
 DB_FILE = os.getenv('DB_FILE', 'store.db')
 UPLOAD_DIR = Path(os.getenv('UPLOAD_DIR', 'product_files')); UPLOAD_DIR.mkdir(exist_ok=True)
 TEMP_NUMBER_URL = 'https://t.me/OtpNowBoost_bot'
